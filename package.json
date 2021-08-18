@@ -1,0 +1,10 @@
+{
+  "name": "hc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "nick, moore",
+  "license": "MIT",
+    "scripts": {
+        "start": "browser-sync start --config bs-config.js"
+    }
+}

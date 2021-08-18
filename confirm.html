@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+    <title>確認訂單｜華啟</title>
+
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="css/hc.css?=v0.1.1">
+
+    <!-- for IE -->
+    <script src="scripts/svg4everybody.min.js"></script>
+    <script>svg4everybody();</script>
+
+</head>
+
+<body>
+
+    <a href="#!" class="hc scrollup">
+        <svg viewBox="0 0 100 100" class="hc up icon">
+            <use xlink:href="images/hc_icons.svg#up"></use>
+        </svg>
+    </a>
+
+    <header>
+        <div class="inner boundary">
+            <a class="logo" href="index_m.html">
+                <svg viewBox="0 0 200 200" class="hc hc_logo">
+                    <use xlink:href="images/hc_icons.svg#hc_logo"></use>
+                </svg>
+                <div class="co">
+                    <span>華啟有限公司</span>
+                    <span class="en">HWA CHI CO., LTD.</span>
+                </div>
+            </a>
+            <div class="icons">
+                <div class="welcome">
+                    <span class="user blue">test123</span>
+                    <span class="hello">你好！</span>
+                </div>
+                <a class="board" href="mbr-board.html">
+                    <svg viewBox="0 0 100 100">
+                        <use xlink:href="images/hc_icons.svg#board"></use>
+                    </svg>
+                    <span>留言</span>
+                    <span class="num">1</span>
+                </a>
+                <!-- <a class="cart"" href="#!">
+                    <svg viewBox="0 0 100 100">
+                        <use xlink:href="images/hc_icons.svg#cart"></use>
+                    </svg>
+                    <span>購物車</span>
+                    <span class="num">5</span>
+                </a> -->
+                <a class="signout" href="#!">
+                    <div class="prefix">
+                        <svg viewBox="0 0 100 100">
+                            <use xlink:href="images/hc_icons.svg#signout"></use>
+                        </svg>
+                    </div>
+                    <span class="title">登　出</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="inner boundary">
+            <ul class="hc pages">
+                <li>
+                    <a class="" href="news.html">
+                        <div class="inner">
+                            <svg viewBox="0 0 100 100">
+                                <use xlink:href="images/hc_icons.svg#news"></use>
+                            </svg>
+                            <span>最新消息</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="" href="#!" data-btn="product">
+                        <div class="inner">
+                            <svg viewBox="0 0 100 100">
+                                <use xlink:href="images/hc_icons.svg#product"></use>
+                            </svg>
+                            <span>產品資訊</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="on" href="#!" data-btn="member">
+                        <div class="inner">
+                            <svg viewBox="0 0 100 100">
+                                <use xlink:href="images/hc_icons.svg#member"></use>
+                            </svg>
+                            <span>會員中心</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="" href="beginner.html">
+                        <div class="inner">
+                            <svg viewBox="0 0 100 100">
+                                <use xlink:href="images/hc_icons.svg#beginner"></use>
+                            </svg>
+                            <span>新手上路</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="cart confirm">
+        <div class="inner boundary">
+            <div class="hc menu box">
+                <div data-box="product">
+                    <ul>
+                        <li>
+                            <a class="search" href="prod-search.html">條件式查詢
+                                <svg viewBox="0 0 100 100" class="hc search icon">
+                                    <use xlink:href="images/hc_icons.svg#search"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="category" href="prod-category.html">類別式查詢
+                                <svg viewBox="0 0 100 100" class="hc category icon">
+                                    <use xlink:href="images/hc_icons.svg#category"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="new" href="prod-new.html">新品介紹
+                                <svg viewBox="0 0 100 100" class="hc new icon">
+                                    <use xlink:href="images/hc_icons.svg#new"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="recent" href="prod-recent.html">近期往來
+                                <svg viewBox="0 0 100 100" class="hc recent icon">
+                                    <use xlink:href="images/hc_icons.svg#recent"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="standing" href="prod-standing.html">我的最愛
+                                <svg viewBox="0 0 100 100" class="hc standing icon">
+                                    <use xlink:href="images/hc_icons.svg#standing"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="track" href="prod-track.html">追蹤產品
+                                <svg viewBox="0 0 100 100" class="hc m-track icon">
+                                    <use xlink:href="images/hc_icons.svg#m-track"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="block on" data-box="member">
+                    <ul>
+                        <li>
+                            <a class="info" href="mbr-info.html">基本資料
+                                <svg viewBox="0 0 100 100" class="hc info icon">
+                                    <use xlink:href="images/hc_icons.svg#info"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="board" href="mbr-board.html">留言板
+                                <svg viewBox="0 0 100 100" class="hc m-board icon">
+                                    <use xlink:href="images/hc_icons.svg#m-board"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="new" href="mbr-orders.html">訂單查詢
+                                <svg viewBox="0 0 100 100" class="hc orders icon">
+                                    <use xlink:href="images/hc_icons.svg#orders"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="underline"></div>
+            </div>
+            <div class="hc system">
+                <div class="cart confirm box">
+                    <div class="hc tab">
+                        <span class="prefix">
+                            <svg viewBox="0 0 100 100" class="hc confirm icon">
+                                <use xlink:href="images/hc_icons.svg#confirm"></use>
+                            </svg>
+                        </span>
+                        <span class="title">確認訂單</span>
+                    </div>
+                    <div class="content">
+                        <ol class="explain">
+                            <li>本訂購單為執行「確認訂單」後，系統自動重新取得目前最新單價，以及可下單的數量。</li>
+                            <li>請確認下列所訂購的品項、數量及金額無誤。</li>
+                            <li>為確保您的權益，請儘速完成訂單。</li>
+                        </ol>
+                        <ul class="header">
+                            <li class="line-item">項次</li>
+                            <li class="nhi-intl-name">健保碼／國際條碼／品名</li>
+                            <li class="price-unit">單價／單位</li>
+                            <li class="qty">訂購數量</li>
+                            <li class="subtotal">小計</li>
+                        </ul>
+                        <div class="content">
+                            <form class="hc form">
+                                <ul class="items">
+                                    <li class="item">
+                                        <div class="inner">
+                                            <div class="line-item">
+                                                <span>1</span>
+                                            </div>
+                                            <div class="group">
+                                                <div class="type">
+                                                    <div class="nhi-intl-name">
+                                                        <span class="nhi above" aria-label="健保碼">A1234561AW</span>
+                                                        <span class="intl above" aria-label="國際條碼">4710085121045</span>
+                                                        <h3 class="name">產品名稱產品名稱產品名稱產品名稱產品名稱產品名稱產品名稱產品名稱產品名稱產品名稱</h3>
+                                                    </div>
+                                                    <div class="price-unit">
+                                                        <span class="unit"><span class="price">225</span>／瓶</span>
+                                                    </div>
+                                                    <div class="qty">
+                                                        <span>12</span>
+                                                    </div>
+                                                    <div class="subtotal">
+                                                        <span class="price">2700</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="inner">
+                                            <div class="line-item">
+                                                <span>2</span>
+                                            </div>
+                                            <div class="group">
+                                                <div class="type">
+                                                    <div class="nhi-intl-name">
+                                                        <span class="nhi above" aria-label="健保碼">A1234561AW</span>
+                                                        <span class="intl above" aria-label="國際條碼">4710085121045</span>
+                                                        <h3 class="name">產品名稱產品名稱產品名稱產品名稱</h3>
+                                                    </div>
+                                                    <div class="price-unit">
+                                                        <span class="unit"><span class="price">62</span>／粒</span>
+                                                    </div>
+                                                    <div class="qty">
+                                                        <span>28</span>
+                                                    </div>
+                                                    <div class="subtotal">
+                                                        <span class="price">1736</span>
+                                                    </div>
+                                                </div>
+                                                <div class="type limit">
+                                                    <span class="title">每日限量：<b class="digit space">28／30</b><span class="is">已購／限購</span></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="inner">
+                                            <div class="line-item">
+                                                <span>3</span>
+                                            </div>
+                                            <div class="group">
+                                                <div class="type">
+                                                    <div class="nhi-intl-name">
+                                                        <span class="nhi above" aria-label="健保碼">A1234561AW</span>
+                                                        <span class="intl above" aria-label="國際條碼">4710085121045</span>
+                                                        <h3 class="name">產品名稱產品名稱產品名稱產品名稱產品名稱產品名稱產品名稱產品名稱</h3>
+                                                    </div>
+                                                    <div class="price-unit">
+                                                        <span class="unit"><span class="price">386</span>／排</span>
+                                                    </div>
+                                                    <div class="qty">
+                                                        <span>12</span>
+                                                    </div>
+                                                    <div class="subtotal">
+                                                        <span class="price">4632</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="item combined">
+                                        <div class="inner">
+                                            <div class="line-item">
+                                                <span>4</span>
+                                            </div>
+                                            <div class="group">
+                                                <div class="type a">
+                                                    <div class="nhi-intl-name">
+                                                        <span class="nhi above" aria-label="健保碼">A1234561AW</span>
+                                                        <span class="intl above" aria-label="國際條碼">4710085121045</span>
+                                                        <h3 class="name">產品名稱產品名稱</h3>
+                                                    </div>
+                                                    <div class="price-unit">
+                                                        <span class="unit"><span class="price">1680</span>／盒</span>
+                                                    </div>
+                                                    <div class="qty">
+                                                        <span>2</span>
+                                                    </div>
+                                                    <div class="subtotal">
+                                                        <span class="price">3360</span>
+                                                    </div>
+                                                </div>
+                                                <div class="type b">
+                                                    <div class="nhi-intl-name">
+                                                        <span class="nhi above" aria-label="健保碼">A1234561AW</span>
+                                                        <span class="intl above" aria-label="國際條碼">4710085121045</span>
+                                                        <h3 class="name">產品名稱產品名稱產品名稱產品名稱產品名稱產品名稱</h3>
+                                                    </div>
+                                                    <div class="price-unit">
+                                                        <span class="unit"><span class="price">2930</span>／盒</span>
+                                                    </div>
+                                                    <div class="qty">
+                                                        <span>1</span>
+                                                    </div>
+                                                    <div class="subtotal">
+                                                        <span class="price">2930</span>
+                                                    </div>
+                                                </div>
+                                                <div class="type enter">
+                                                    <span><b class="space">2A + 1B</b>促銷組合訂購數量：<span class="space num">1</span></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="item">
+                                        <div class="inner">
+                                            <div class="line-item">
+                                                <span>5</span>
+                                            </div>
+                                            <div class="group">
+                                                <div class="type">
+                                                    <div class="nhi-intl-name">
+                                                        <span class="nhi above" aria-label="健保碼">A1234561AW</span>
+                                                        <span class="intl above" aria-label="國際條碼">4710085121045</span>
+                                                        <h3 class="name">產品名稱產品名稱產品名稱產品名稱產品名稱產品名稱產品名稱產品名稱產品名稱產品名稱產品名稱</h3>
+                                                    </div>
+                                                    <div class="price-unit">
+                                                        <span class="unit"><span class="price">555</span>／瓶</span>
+                                                    </div>
+                                                    <div class="qty">
+                                                        <span>6</span>
+                                                    </div>
+                                                    <div class="subtotal">
+                                                        <span class="price">3330</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="behind">
+                                    <div class="inner">
+                                        <div class="sum">
+                                            <span>訂單應付總金額</span>
+                                            <span class="price nt red">18688</span><span>元</span>
+                                        </div>
+                                        <div class="note">
+                                            <div class="field">
+                                                <label>備註事項：</label>
+                                                <span>備註事項內容備註事項內容備註事項內容備註事項內容。</span>
+                                            </div>
+                                        </div>
+                                        <div class="buttons">
+                                            <a class="hc blue button" href="cart.html">回購物車</a>
+                                            <a class="hc final red button" href="#!">送出訂單</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="jump">
+            <a class="desktop" href="#!">電腦版</a>
+            <a class="mobile" href="#!">手機版</a>
+        </div>
+        <div class="inner boundary">
+            <div class="left">
+                <a class="logo" href="index_m.html">
+                    <svg viewBox="0 0 200 200" class="hc hc_logo">
+                        <use xlink:href="images/hc_icons.svg#hc_logo"></use>
+                    </svg>
+                    <div class="co">
+                        <span>華啟有限公司</span>
+                        <span class="en">HWA CHI CO., LTD.</span>
+                    </div>
+                </a>
+                <div class="hc made info">
+                    <p>© 2019 Hwa Chi, all rights reserved.　POWERED BY <a class="under" href="http://www.fmbs.com.tw/" aria-label="前往樺穎資訊官網" target="_blank">樺穎資訊</a></p>
+                    <p>為了更安全方便在「華啟」瀏覽，請確認 IE 瀏覽器版本為 11 以上，或使用最新版的<a class="under" aria-label="下載 Google Chrome 瀏覽器" href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank"> Google Chrome </a>或<a class="under" aria-label="下載 Firefox 瀏覽器" href="https://www.mozilla.org/zh-TW/firefox/new/" target="_blank"> Firefox </a>瀏覽器。</p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="tel">
+                    <div class="prefix">
+                        <svg viewBox="-20  -20 140 140" class="hc tel icon">
+                            <use xlink:href="images/hc_icons.svg#tel"></use>
+                        </svg>
+                    </div>
+                    <div class="subject">
+                        <span class="label">電話</span>
+                        <span class="number">02-2961-5820</span>
+                    </div>
+                </div>
+                <div class="fax">
+                    <div class="prefix">
+                        <svg viewBox="-20 -20 140 140" class="hc fax icon">
+                            <use xlink:href="images/hc_icons.svg#fax"></use>
+                        </svg>
+                    </div>
+                    <div class="subject">
+                        <span class="label">傳真</span>
+                        <span class="number">02-2961-5820</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/hc.js"></script>
+
+    <!-- signout -->
+    <div class="hc signout dialog">
+        <div class="outer">
+            <div class="inner">
+                <div class="bar">
+                    <div class="set">
+                        <a href="#!" class="tc close">
+                            <svg viewBox="-50 -50 200 200" class="hc icon">
+                                <use xlink:href="images/hc_icons.svg#close"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="title">
+                        <span>系統訊息</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <h3>確定要登出系統？</h3>
+                        <div class="body">
+                            <p>目前購物車中仍有<b class="blue space">5</b>項商品尚未確認成立訂單，系統會依放入購物車之日期，暫時<span class="blue">存放<b class="space">7</b>天</span>。</p>
+                        </div>
+                    </div>
+                    <div class="buttons field">
+                        <a class="hc blue cart button" href="cart.html"">回購物車</a>
+                        <a class="hc blue signout button" href="index.html">確定登出</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- order complete -->
+    <div class="hc complete dialog">
+        <div class="outer">
+            <div class="inner">
+                <div class="bar">
+                    <div class="set">
+                        <a href="#!" class="tc close">
+                            <svg viewBox="-50 -50 200 200" class="hc icon">
+                                <use xlink:href="images/hc_icons.svg#close"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="title">
+                        <span>系統訊息</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="content">
+                        <h3>訂購成功！</h3>
+                        <div class="body">
+                            <p>您已經成功送出訂單，感謝您的訂購！</p>
+                        </div>
+                    </div>
+                    <div class="buttons field">
+                        <a class="hc blue cart button" href="index_m.html"">回首頁</a>
+                        <a class="hc blue signout button" href="mbr-orders.html">前往訂單列表</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // system dialog -- signout
+        hc.addEvent(hc.$('a.signout'), 'click', function() {
+            hc.openShow(hc.$('a.signout'), hc.$('.signout.dialog'));
+        });
+        hc.addEvent(hc.$('.signout.dialog .close'), 'mouseup', function() {
+            hc.closeFocus(hc.$('.signout.dialog .close'), hc.$('.signout.dialog'));
+        });
+
+        // system dialog -- order complete
+        hc.addEvent(hc.$('a.final'), 'click', function() {
+            hc.openShow(hc.$('a.final'), hc.$('.complete.dialog'));
+        });
+        hc.addEvent(hc.$('.complete.dialog .close'), 'mouseup', function() {
+            hc.closeFocus(hc.$('.complete.dialog .close'), hc.$('.complete.dialog'));
+        });
+    </script>
+
+
+</body>
+
+</html>
