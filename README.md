@@ -1,7 +1,5 @@
 # HC
 
-`browser-sync port: 8004`
-
 ##### 首頁：index.html
 ##### 登入後首頁：index_m.html
 ##### 最新消息：news.html
